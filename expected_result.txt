@@ -1,0 +1,14 @@
+When you first run the application, you will see a web page with the following elements:
+
+- A section for adding movies with a title, rating, and "Watched" toggle button.
+- A "Sort Movies" button.
+- A section to display the total number of movies in the list.
+- A section to display movies with a rating higher than a specified value.
+- The displayed movies are contained in boxes, colored green if their rating is 3.5 or higher, and red otherwise.
+
+## Adding Movies
+1. Initial movies are already added, such as "Spiderman," "Citizen Kane," and "Zootopia."
+2. You can add a new movie via the console using the following code:
+   ```javascript
+   let newMovie = new Movie("Your Movie Title", 4.2, true);
+   addMovie(newMovie);
